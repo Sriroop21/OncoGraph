@@ -1,0 +1,42 @@
+# --- Python ---
+__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --- Virtual environment ---
+venv/
+env/
+.venv/
+
+# --- Large processed tensors (100s of MB - 1GB+, regenerable from raw data) ---
+backend/data/*.pt
+backend/data/*.pth
+
+# --- Raw genomic dataset files (1GB+, keep local only / link in README instead) ---
+*.xena
+*.xena*
+EB++AdjustPANCAN*
+Survival_SupplementalTable*
+
+# --- Large raw CSVs at project root (keep the small samples though) ---
+*.csv
+!merged_data_sample.csv
+!merged_sample.csv
+!backend/results/**/*.csv
+
+# NOTE: results/ folder (JSON reports, PNGs, checkpoints, metrics) is
+# intentionally NOT ignored - these are small, meaningful outputs worth
+# keeping in the repo. Only exclude if a specific checkpoint file is huge:
+# backend/results/checkpoints/*.pt
+# backend/results/checkpoints/*.pth
+
+# --- Environment / secrets ---
+.env
+
+# --- OS / editor junk ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
