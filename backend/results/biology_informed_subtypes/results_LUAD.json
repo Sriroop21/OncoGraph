@@ -1,0 +1,76 @@
+{
+    "cancer_type": "LUAD",
+    "n_samples": 576,
+    "optimal_k": 6,
+    "expected_range": [
+        3,
+        6
+    ],
+    "silhouette": 0.39219334721565247,
+    "davies_bouldin": 0.9021122633867099,
+    "calinski_harabasz": 6731.797397138046,
+    "balance_ratio": 0.47586206896551725,
+    "overall_silhouette": 0.39219334721565247,
+    "min_cluster_silhouette": 0.23231104016304016,
+    "negative_ratio": 0.0763888888888889,
+    "de_genes": [
+        {
+            "gene": "ATP1B3",
+            "p_value": 2.7143057086714904e-35,
+            "gene_index": 1206
+        },
+        {
+            "gene": "CDK6",
+            "p_value": 5.140598793961086e-33,
+            "gene_index": 3487
+        },
+        {
+            "gene": "CCDC50",
+            "p_value": 4.4600374498764945e-32,
+            "gene_index": 3151
+        },
+        {
+            "gene": "C16orf58",
+            "p_value": 2.211991666834983e-31,
+            "gene_index": 1971
+        },
+        {
+            "gene": "B3GALNT1",
+            "p_value": 2.3032481144757593e-31,
+            "gene_index": 1323
+        },
+        {
+            "gene": "ACAD8",
+            "p_value": 2.754223700982288e-31,
+            "gene_index": 146
+        },
+        {
+            "gene": "CCNJL",
+            "p_value": 3.0141849819632473e-31,
+            "gene_index": 3264
+        },
+        {
+            "gene": "CD46",
+            "p_value": 2.2815363456208172e-27,
+            "gene_index": 3354
+        },
+        {
+            "gene": "CCDC64B",
+            "p_value": 6.206811220168573e-26,
+            "gene_index": 3166
+        },
+        {
+            "gene": "CCL4",
+            "p_value": 7.583241981875196e-25,
+            "gene_index": 3238
+        }
+    ],
+    "cluster_sizes": [
+        106,
+        84,
+        92,
+        69,
+        80,
+        145
+    ]
+}

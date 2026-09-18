@@ -1,0 +1,14 @@
+{
+    "cancer_type": "LGG",
+    "n_patients": 529,
+    "os_log_rank_p": 0.008566600517782588,
+    "os_median_by_risk": {
+        "0": 2660.0,
+        "2": 561.0
+    },
+    "pfi_log_rank_p": 0.290916026942094,
+    "pfi_median_by_risk": {
+        "0": 1242.0,
+        "2": 561.0
+    }
+}

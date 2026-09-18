@@ -1,0 +1,14 @@
+{
+    "cancer_type": "UCEC",
+    "n_patients": 555,
+    "os_log_rank_p": 0.00441154013278628,
+    "os_median_by_risk": {
+        "0": 3112.0,
+        "1": Infinity
+    },
+    "pfi_log_rank_p": 0.0013404380604585596,
+    "pfi_median_by_risk": {
+        "0": 2113.0,
+        "1": Infinity
+    }
+}

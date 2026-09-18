@@ -1,0 +1,75 @@
+{
+    "cancer_type": "UCEC",
+    "n_samples": 555,
+    "optimal_k": 5,
+    "expected_range": [
+        3,
+        8
+    ],
+    "silhouette": 0.46444761753082275,
+    "davies_bouldin": 0.8241394057972524,
+    "calinski_harabasz": 11503.047422514008,
+    "balance_ratio": 0.6240601503759399,
+    "overall_silhouette": 0.46444761753082275,
+    "min_cluster_silhouette": 0.2483837902545929,
+    "negative_ratio": 0.04144144144144144,
+    "de_genes": [
+        {
+            "gene": "ARFIP1",
+            "p_value": 0.0,
+            "gene_index": 916
+        },
+        {
+            "gene": "C9orf152",
+            "p_value": 4.318801867049086e-41,
+            "gene_index": 2775
+        },
+        {
+            "gene": "BCAM",
+            "p_value": 4.639923423133761e-40,
+            "gene_index": 1420
+        },
+        {
+            "gene": "C13orf31",
+            "p_value": 2.331676566728636e-39,
+            "gene_index": 1847
+        },
+        {
+            "gene": "CDC42SE2",
+            "p_value": 7.465909424451441e-39,
+            "gene_index": 3419
+        },
+        {
+            "gene": "C5orf43",
+            "p_value": 3.182064292841463e-37,
+            "gene_index": 2568
+        },
+        {
+            "gene": "B4GALT1",
+            "p_value": 3.458465594462816e-37,
+            "gene_index": 1348
+        },
+        {
+            "gene": "AKT2",
+            "p_value": 9.074762219754623e-37,
+            "gene_index": 525
+        },
+        {
+            "gene": "BET1",
+            "p_value": 1.1209854100143322e-36,
+            "gene_index": 1490
+        },
+        {
+            "gene": "CEACAM8",
+            "p_value": 4.578298307570782e-36,
+            "gene_index": 3543
+        }
+    ],
+    "cluster_sizes": [
+        83,
+        92,
+        115,
+        132,
+        133
+    ]
+}

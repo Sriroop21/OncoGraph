@@ -1,0 +1,14 @@
+{
+    "cancer_type": "OV",
+    "n_patients": 308,
+    "os_log_rank_p": 0.6987103113683966,
+    "os_median_by_risk": {
+        "0": 542.0,
+        "1": 1348.0
+    },
+    "pfi_log_rank_p": 0.5157557044610686,
+    "pfi_median_by_risk": {
+        "0": 2205.0,
+        "1": 548.0
+    }
+}

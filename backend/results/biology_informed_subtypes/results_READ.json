@@ -1,0 +1,73 @@
+{
+    "cancer_type": "READ",
+    "n_samples": 170,
+    "optimal_k": 3,
+    "expected_range": [
+        3,
+        8
+    ],
+    "silhouette": 0.6453137397766113,
+    "davies_bouldin": 0.6666885539917522,
+    "calinski_harabasz": 2650.4132032147786,
+    "balance_ratio": 0.4444444444444444,
+    "overall_silhouette": 0.6453137397766113,
+    "min_cluster_silhouette": 0.31328392028808594,
+    "negative_ratio": 0.03529411764705882,
+    "de_genes": [
+        {
+            "gene": "ABHD4",
+            "p_value": 8.057250511228631e-08,
+            "gene_index": 120
+        },
+        {
+            "gene": "CDK5RAP1",
+            "p_value": 9.308306658795118e-08,
+            "gene_index": 3484
+        },
+        {
+            "gene": "ACADS",
+            "p_value": 4.439415022261528e-07,
+            "gene_index": 150
+        },
+        {
+            "gene": "ACAT2",
+            "p_value": 1.7872357602755073e-06,
+            "gene_index": 158
+        },
+        {
+            "gene": "AMD1",
+            "p_value": 2.2573199203179684e-06,
+            "gene_index": 613
+        },
+        {
+            "gene": "ADNP",
+            "p_value": 2.6481277473067166e-06,
+            "gene_index": 364
+        },
+        {
+            "gene": "AGPAT5",
+            "p_value": 2.6776342565426603e-06,
+            "gene_index": 434
+        },
+        {
+            "gene": "BAI1",
+            "p_value": 3.4046049677272094e-06,
+            "gene_index": 1373
+        },
+        {
+            "gene": "BAK1",
+            "p_value": 4.069846454513026e-06,
+            "gene_index": 1380
+        },
+        {
+            "gene": "ATP8B1",
+            "p_value": 5.093478193884948e-06,
+            "gene_index": 1267
+        }
+    ],
+    "cluster_sizes": [
+        90,
+        40,
+        40
+    ]
+}

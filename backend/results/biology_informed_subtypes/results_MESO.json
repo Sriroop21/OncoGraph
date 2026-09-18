@@ -1,0 +1,73 @@
+{
+    "cancer_type": "MESO",
+    "n_samples": 87,
+    "optimal_k": 3,
+    "expected_range": [
+        3,
+        8
+    ],
+    "silhouette": 0.6410062909126282,
+    "davies_bouldin": 0.6028367981836699,
+    "calinski_harabasz": 9163.62870200532,
+    "balance_ratio": 0.5714285714285714,
+    "overall_silhouette": 0.6410062909126282,
+    "min_cluster_silhouette": 0.37115150690078735,
+    "negative_ratio": 0.022988505747126436,
+    "de_genes": [
+        {
+            "gene": "ANXA8",
+            "p_value": 1.566290569465778e-10,
+            "gene_index": 779
+        },
+        {
+            "gene": "COBL",
+            "p_value": 2.382856967297897e-10,
+            "gene_index": 4017
+        },
+        {
+            "gene": "CFB",
+            "p_value": 5.255262336412159e-10,
+            "gene_index": 3629
+        },
+        {
+            "gene": "ABLIM2",
+            "p_value": 6.567831278836422e-10,
+            "gene_index": 131
+        },
+        {
+            "gene": "BCO2",
+            "p_value": 1.7928265094724338e-08,
+            "gene_index": 1463
+        },
+        {
+            "gene": "C19orf21",
+            "p_value": 2.1434253483221255e-08,
+            "gene_index": 2083
+        },
+        {
+            "gene": "BCL6B",
+            "p_value": 5.803486402555791e-08,
+            "gene_index": 1454
+        },
+        {
+            "gene": "AACS",
+            "p_value": 8.788135374970807e-08,
+            "gene_index": 39
+        },
+        {
+            "gene": "C9orf103",
+            "p_value": 9.492005403899384e-08,
+            "gene_index": 2752
+        },
+        {
+            "gene": "BNC1",
+            "p_value": 1.3722599589982565e-07,
+            "gene_index": 1560
+        }
+    ],
+    "cluster_sizes": [
+        35,
+        20,
+        32
+    ]
+}

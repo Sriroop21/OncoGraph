@@ -1,0 +1,14 @@
+{
+    "cancer_type": "CHOL",
+    "n_patients": 45,
+    "os_log_rank_p": 0.21218499031688712,
+    "os_median_by_risk": {
+        "0": 1220.0,
+        "2": 924.0
+    },
+    "pfi_log_rank_p": 0.510354396937045,
+    "pfi_median_by_risk": {
+        "0": 295.0,
+        "2": 362.0
+    }
+}

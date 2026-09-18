@@ -1,0 +1,16 @@
+{
+    "cancer_type": "COAD",
+    "n_patients": 492,
+    "os_log_rank_p": 2.96582425149274e-14,
+    "os_median_by_risk": {
+        "0": 3042.0,
+        "1": Infinity,
+        "2": 858.0
+    },
+    "pfi_log_rank_p": 3.5070613347456715e-23,
+    "pfi_median_by_risk": {
+        "0": Infinity,
+        "1": Infinity,
+        "2": 439.0
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "cancer_type": "KICH",
+    "n_patients": 91,
+    "os_log_rank_p": 6.099903521170608e-17,
+    "os_median_by_risk": {
+        "0": Infinity,
+        "1": Infinity,
+        "2": 855.0
+    },
+    "pfi_log_rank_p": 1.4500774349188127e-17,
+    "pfi_median_by_risk": {
+        "0": Infinity,
+        "1": Infinity,
+        "2": 148.0
+    }
+}

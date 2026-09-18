@@ -1,0 +1,18 @@
+{
+    "split": "val",
+    "n_samples": 1652,
+    "n_anomalies": 146,
+    "pct_anomalies": 8.837772397094431,
+    "n_errors": 73,
+    "errors_caught": 49,
+    "error_catch_rate": 67.12328767123287,
+    "calibrated_threshold": 0.753061224489796,
+    "learned_weights": {
+        "confidence": 1.7230484913961355,
+        "margin": 3.7905660328753017,
+        "distance": 2.5121092896958475,
+        "isolation": -1.2613702903516615,
+        "lof": -1.4368265819877166,
+        "entropy": 1.1790200192974236
+    }
+}

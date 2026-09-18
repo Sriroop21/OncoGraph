@@ -1,0 +1,16 @@
+{
+    "cancer_type": "CESC",
+    "n_patients": 309,
+    "os_log_rank_p": 0.32166896337591155,
+    "os_median_by_risk": {
+        "0": Infinity,
+        "1": 1210.0,
+        "2": 3097.0
+    },
+    "pfi_log_rank_p": 0.6244903185295893,
+    "pfi_median_by_risk": {
+        "0": Infinity,
+        "1": 1210.0,
+        "2": Infinity
+    }
+}

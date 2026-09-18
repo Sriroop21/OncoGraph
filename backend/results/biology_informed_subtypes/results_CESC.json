@@ -1,0 +1,74 @@
+{
+    "cancer_type": "CESC",
+    "n_samples": 309,
+    "optimal_k": 4,
+    "expected_range": [
+        3,
+        8
+    ],
+    "silhouette": 0.6621074080467224,
+    "davies_bouldin": 0.5851488843371249,
+    "calinski_harabasz": 12101.888417103302,
+    "balance_ratio": 0.40441176470588236,
+    "overall_silhouette": 0.6621074080467224,
+    "min_cluster_silhouette": 0.4274260699748993,
+    "negative_ratio": 0.025889967637540454,
+    "de_genes": [
+        {
+            "gene": "CCDC40",
+            "p_value": 2.0797814052821596e-15,
+            "gene_index": 3142
+        },
+        {
+            "gene": "CAPNS2",
+            "p_value": 4.540561194854619e-15,
+            "gene_index": 2957
+        },
+        {
+            "gene": "CLDND1",
+            "p_value": 3.8836724905889214e-14,
+            "gene_index": 3851
+        },
+        {
+            "gene": "ABCC5",
+            "p_value": 4.7344330604374985e-14,
+            "gene_index": 90
+        },
+        {
+            "gene": "BCL2L10",
+            "p_value": 4.9450945589909687e-14,
+            "gene_index": 1444
+        },
+        {
+            "gene": "CCDC21",
+            "p_value": 1.6013275774828806e-13,
+            "gene_index": 3126
+        },
+        {
+            "gene": "CD81",
+            "p_value": 4.737951567537757e-13,
+            "gene_index": 3376
+        },
+        {
+            "gene": "CD63",
+            "p_value": 7.175280335169898e-13,
+            "gene_index": 3365
+        },
+        {
+            "gene": "ACAP2",
+            "p_value": 1.2001426328428488e-12,
+            "gene_index": 155
+        },
+        {
+            "gene": "C12orf54",
+            "p_value": 1.4882404119828663e-12,
+            "gene_index": 1816
+        }
+    ],
+    "cluster_sizes": [
+        136,
+        55,
+        59,
+        59
+    ]
+}

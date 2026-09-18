@@ -1,0 +1,74 @@
+{
+    "cancer_type": "OV",
+    "n_samples": 308,
+    "optimal_k": 4,
+    "expected_range": [
+        4,
+        6
+    ],
+    "silhouette": 0.4197111129760742,
+    "davies_bouldin": 0.8787946676793956,
+    "calinski_harabasz": 7160.9311752353715,
+    "balance_ratio": 0.5217391304347826,
+    "overall_silhouette": 0.4197111129760742,
+    "min_cluster_silhouette": 0.3862308859825134,
+    "negative_ratio": 0.08116883116883117,
+    "de_genes": [
+        {
+            "gene": "C5orf46",
+            "p_value": 1.6636120107361985e-14,
+            "gene_index": 2571
+        },
+        {
+            "gene": "C3orf72",
+            "p_value": 7.999275131176375e-10,
+            "gene_index": 2499
+        },
+        {
+            "gene": "ABR",
+            "p_value": 9.3409491253027e-10,
+            "gene_index": 135
+        },
+        {
+            "gene": "ACAN",
+            "p_value": 9.04398067547163e-09,
+            "gene_index": 153
+        },
+        {
+            "gene": "ABI3",
+            "p_value": 1.696112938986971e-08,
+            "gene_index": 126
+        },
+        {
+            "gene": "ACOXL",
+            "p_value": 1.976245833645862e-08,
+            "gene_index": 197
+        },
+        {
+            "gene": "C3orf64",
+            "p_value": 5.641231837216765e-08,
+            "gene_index": 2493
+        },
+        {
+            "gene": "AADAT",
+            "p_value": 8.195763712137705e-08,
+            "gene_index": 45
+        },
+        {
+            "gene": "C3orf50",
+            "p_value": 1.2823547024254367e-07,
+            "gene_index": 2483
+        },
+        {
+            "gene": "ACBD7",
+            "p_value": 1.560164974989675e-07,
+            "gene_index": 163
+        }
+    ],
+    "cluster_sizes": [
+        48,
+        92,
+        79,
+        89
+    ]
+}

@@ -1,0 +1,76 @@
+{
+    "cancer_type": "LIHC",
+    "n_samples": 423,
+    "optimal_k": 6,
+    "expected_range": [
+        3,
+        8
+    ],
+    "silhouette": 0.38003575801849365,
+    "davies_bouldin": 0.8776744445473765,
+    "calinski_harabasz": 24024.36107081948,
+    "balance_ratio": 0.32075471698113206,
+    "overall_silhouette": 0.38003575801849365,
+    "min_cluster_silhouette": 0.2556759715080261,
+    "negative_ratio": 0.08983451536643026,
+    "de_genes": [
+        {
+            "gene": "ANK3",
+            "p_value": 1.7913465676040352e-32,
+            "gene_index": 668
+        },
+        {
+            "gene": "CCBE1",
+            "p_value": 4.123375280053816e-32,
+            "gene_index": 3057
+        },
+        {
+            "gene": "ADAMTS2",
+            "p_value": 9.254029318338548e-32,
+            "gene_index": 306
+        },
+        {
+            "gene": "ABR",
+            "p_value": 2.242688545120266e-29,
+            "gene_index": 135
+        },
+        {
+            "gene": "CFTR",
+            "p_value": 6.944444767392365e-29,
+            "gene_index": 3645
+        },
+        {
+            "gene": "AKT3",
+            "p_value": 1.8321364338718483e-28,
+            "gene_index": 526
+        },
+        {
+            "gene": "CAP2",
+            "p_value": 2.2424245121619526e-28,
+            "gene_index": 2941
+        },
+        {
+            "gene": "CCDC8",
+            "p_value": 1.036975185875514e-27,
+            "gene_index": 3195
+        },
+        {
+            "gene": "C8orf79",
+            "p_value": 1.3472437517707615e-27,
+            "gene_index": 2742
+        },
+        {
+            "gene": "CCT3",
+            "p_value": 4.5112532349719626e-27,
+            "gene_index": 3289
+        }
+    ],
+    "cluster_sizes": [
+        59,
+        106,
+        106,
+        63,
+        34,
+        55
+    ]
+}

@@ -1,0 +1,74 @@
+{
+    "cancer_type": "LAML",
+    "n_samples": 173,
+    "optimal_k": 4,
+    "expected_range": [
+        3,
+        8
+    ],
+    "silhouette": 0.636055588722229,
+    "davies_bouldin": 0.6388702053868133,
+    "calinski_harabasz": 7168.445671844457,
+    "balance_ratio": 0.3466666666666667,
+    "overall_silhouette": 0.636055588722229,
+    "min_cluster_silhouette": 0.26018375158309937,
+    "negative_ratio": 0.03468208092485549,
+    "de_genes": [
+        {
+            "gene": "10431",
+            "p_value": 0.001236192649230361,
+            "gene_index": 4
+        },
+        {
+            "gene": "136542",
+            "p_value": NaN,
+            "gene_index": 5
+        },
+        {
+            "gene": "AAAS",
+            "p_value": 6.53289262686485e-08,
+            "gene_index": 38
+        },
+        {
+            "gene": "A2M",
+            "p_value": 7.567566058241937e-07,
+            "gene_index": 33
+        },
+        {
+            "gene": "A1BG",
+            "p_value": 0.00014989716873969883,
+            "gene_index": 29
+        },
+        {
+            "gene": "155060",
+            "p_value": 0.007573872338980436,
+            "gene_index": 6
+        },
+        {
+            "gene": "390284",
+            "p_value": 0.008225490339100361,
+            "gene_index": 12
+        },
+        {
+            "gene": "10357",
+            "p_value": 0.008370746858417988,
+            "gene_index": 3
+        },
+        {
+            "gene": "100134869",
+            "p_value": 0.01745237410068512,
+            "gene_index": 2
+        },
+        {
+            "gene": "100130426",
+            "p_value": NaN,
+            "gene_index": 0
+        }
+    ],
+    "cluster_sizes": [
+        75,
+        27,
+        26,
+        45
+    ]
+}

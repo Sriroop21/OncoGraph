@@ -1,0 +1,75 @@
+{
+    "cancer_type": "HNSC",
+    "n_samples": 566,
+    "optimal_k": 5,
+    "expected_range": [
+        3,
+        5
+    ],
+    "silhouette": 0.40738606452941895,
+    "davies_bouldin": 0.8934045108753912,
+    "calinski_harabasz": 2902.7750728825777,
+    "balance_ratio": 0.3684210526315789,
+    "overall_silhouette": 0.40738606452941895,
+    "min_cluster_silhouette": 0.28555360436439514,
+    "negative_ratio": 0.05123674911660778,
+    "de_genes": [
+        {
+            "gene": "CHRND",
+            "p_value": 1.066091056076749e-39,
+            "gene_index": 3748
+        },
+        {
+            "gene": "ASB5",
+            "p_value": 6.481917642802554e-39,
+            "gene_index": 1096
+        },
+        {
+            "gene": "CAV3",
+            "p_value": 1.424113845401568e-36,
+            "gene_index": 3021
+        },
+        {
+            "gene": "C20orf166",
+            "p_value": 3.3540873784311216e-36,
+            "gene_index": 2292
+        },
+        {
+            "gene": "CASQ2",
+            "p_value": 5.5988173887672046e-36,
+            "gene_index": 3006
+        },
+        {
+            "gene": "CSRP3",
+            "p_value": 1.6920275472447542e-35,
+            "gene_index": 4344
+        },
+        {
+            "gene": "COX6A2",
+            "p_value": 2.162533797443575e-35,
+            "gene_index": 4140
+        },
+        {
+            "gene": "C10orf71",
+            "p_value": 4.002586102184662e-35,
+            "gene_index": 1720
+        },
+        {
+            "gene": "CKM",
+            "p_value": 4.832149627318295e-35,
+            "gene_index": 3805
+        },
+        {
+            "gene": "BEST3",
+            "p_value": 6.537899745233923e-33,
+            "gene_index": 1488
+        }
+    ],
+    "cluster_sizes": [
+        72,
+        190,
+        70,
+        102,
+        132
+    ]
+}

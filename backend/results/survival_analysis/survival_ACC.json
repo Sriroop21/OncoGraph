@@ -1,0 +1,16 @@
+{
+    "cancer_type": "ACC",
+    "n_patients": 79,
+    "os_log_rank_p": 1.4834192487488119e-06,
+    "os_median_by_risk": {
+        "0": Infinity,
+        "1": 1197.0,
+        "2": 562.0
+    },
+    "pfi_log_rank_p": 4.236331746271362e-06,
+    "pfi_median_by_risk": {
+        "0": Infinity,
+        "1": 444.0,
+        "2": 289.0
+    }
+}

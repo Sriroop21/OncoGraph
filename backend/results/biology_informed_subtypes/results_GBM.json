@@ -1,0 +1,73 @@
+{
+    "cancer_type": "GBM",
+    "n_samples": 166,
+    "optimal_k": 3,
+    "expected_range": [
+        3,
+        5
+    ],
+    "silhouette": 0.6264868974685669,
+    "davies_bouldin": 0.6326864788564462,
+    "calinski_harabasz": 4308.851152810021,
+    "balance_ratio": 0.41333333333333333,
+    "overall_silhouette": 0.6264868974685669,
+    "min_cluster_silhouette": 0.3480857014656067,
+    "negative_ratio": 0.05421686746987952,
+    "de_genes": [
+        {
+            "gene": "136542",
+            "p_value": 0.0,
+            "gene_index": 5
+        },
+        {
+            "gene": "280660",
+            "p_value": 0.0,
+            "gene_index": 8
+        },
+        {
+            "gene": "317712",
+            "p_value": 0.0,
+            "gene_index": 9
+        },
+        {
+            "gene": "441362",
+            "p_value": 0.0,
+            "gene_index": 16
+        },
+        {
+            "gene": "728045",
+            "p_value": 0.0,
+            "gene_index": 23
+        },
+        {
+            "gene": "ACTL9",
+            "p_value": 0.0,
+            "gene_index": 239
+        },
+        {
+            "gene": "BASE",
+            "p_value": 0.0,
+            "gene_index": 1392
+        },
+        {
+            "gene": "BCYRN1",
+            "p_value": 0.0,
+            "gene_index": 1469
+        },
+        {
+            "gene": "BEYLA",
+            "p_value": 0.0,
+            "gene_index": 1497
+        },
+        {
+            "gene": "BPY2",
+            "p_value": 0.0,
+            "gene_index": 1585
+        }
+    ],
+    "cluster_sizes": [
+        75,
+        31,
+        60
+    ]
+}

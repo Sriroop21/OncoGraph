@@ -1,0 +1,16 @@
+{
+    "cancer_type": "PAAD",
+    "n_patients": 183,
+    "os_log_rank_p": 0.8024857516486014,
+    "os_median_by_risk": {
+        "0": 607.0,
+        "1": Infinity,
+        "2": Infinity
+    },
+    "pfi_log_rank_p": 0.9604653652732669,
+    "pfi_median_by_risk": {
+        "0": 476.0,
+        "1": 394.0,
+        "2": 555.0
+    }
+}

@@ -1,0 +1,74 @@
+{
+    "cancer_type": "ESCA",
+    "n_samples": 196,
+    "optimal_k": 4,
+    "expected_range": [
+        3,
+        8
+    ],
+    "silhouette": 0.5379492044448853,
+    "davies_bouldin": 0.5813538460122625,
+    "calinski_harabasz": 2972.080118891124,
+    "balance_ratio": 0.38571428571428573,
+    "overall_silhouette": 0.5379492044448853,
+    "min_cluster_silhouette": 0.27643656730651855,
+    "negative_ratio": 0.08673469387755102,
+    "de_genes": [
+        {
+            "gene": "ABCC6P1",
+            "p_value": 1.982375900384194e-21,
+            "gene_index": 92
+        },
+        {
+            "gene": "A1CF",
+            "p_value": 3.908639632330812e-21,
+            "gene_index": 30
+        },
+        {
+            "gene": "ABCC6P2",
+            "p_value": 7.707111893325346e-20,
+            "gene_index": 93
+        },
+        {
+            "gene": "ACAA2",
+            "p_value": 3.9273703133526373e-19,
+            "gene_index": 141
+        },
+        {
+            "gene": "ABCC6",
+            "p_value": 1.6028742984558813e-18,
+            "gene_index": 91
+        },
+        {
+            "gene": "ACE",
+            "p_value": 6.629189210761249e-18,
+            "gene_index": 172
+        },
+        {
+            "gene": "ABP1",
+            "p_value": 1.0994251908886241e-17,
+            "gene_index": 134
+        },
+        {
+            "gene": "ABCC1",
+            "p_value": 8.03397912627597e-17,
+            "gene_index": 86
+        },
+        {
+            "gene": "ABCC5",
+            "p_value": 1.5174454960228902e-16,
+            "gene_index": 90
+        },
+        {
+            "gene": "ACBD5",
+            "p_value": 9.331409402436332e-16,
+            "gene_index": 161
+        }
+    ],
+    "cluster_sizes": [
+        47,
+        52,
+        27,
+        70
+    ]
+}

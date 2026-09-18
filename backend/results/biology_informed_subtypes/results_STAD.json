@@ -1,0 +1,74 @@
+{
+    "cancer_type": "STAD",
+    "n_samples": 450,
+    "optimal_k": 4,
+    "expected_range": [
+        3,
+        8
+    ],
+    "silhouette": 0.572627604007721,
+    "davies_bouldin": 0.559087629642352,
+    "calinski_harabasz": 6223.7663892424525,
+    "balance_ratio": 0.5214285714285715,
+    "overall_silhouette": 0.572627604007721,
+    "min_cluster_silhouette": 0.5128216743469238,
+    "negative_ratio": 0.03777777777777778,
+    "de_genes": [
+        {
+            "gene": "ACAP2",
+            "p_value": 1.2918413794030972e-23,
+            "gene_index": 155
+        },
+        {
+            "gene": "10357",
+            "p_value": 2.2967253697047276e-17,
+            "gene_index": 3
+        },
+        {
+            "gene": "ACOT8",
+            "p_value": 1.8001559241192545e-14,
+            "gene_index": 192
+        },
+        {
+            "gene": "645851",
+            "p_value": 2.4522720212436476e-14,
+            "gene_index": 20
+        },
+        {
+            "gene": "ACBD4",
+            "p_value": 1.2246600218299153e-13,
+            "gene_index": 160
+        },
+        {
+            "gene": "ACOT1",
+            "p_value": 2.604475066603912e-13,
+            "gene_index": 187
+        },
+        {
+            "gene": "391714",
+            "p_value": 2.788872648443186e-12,
+            "gene_index": 14
+        },
+        {
+            "gene": "ACER3",
+            "p_value": 7.483136506281074e-12,
+            "gene_index": 176
+        },
+        {
+            "gene": "155060",
+            "p_value": 2.1084337401000575e-11,
+            "gene_index": 6
+        },
+        {
+            "gene": "100133144",
+            "p_value": 6.7100063283476175e-09,
+            "gene_index": 1
+        }
+    ],
+    "cluster_sizes": [
+        73,
+        140,
+        113,
+        124
+    ]
+}

@@ -1,0 +1,74 @@
+{
+    "cancer_type": "PCPG",
+    "n_samples": 187,
+    "optimal_k": 4,
+    "expected_range": [
+        3,
+        8
+    ],
+    "silhouette": 0.6473940014839172,
+    "davies_bouldin": 0.5847512791708637,
+    "calinski_harabasz": 7775.719087435895,
+    "balance_ratio": 0.2926829268292683,
+    "overall_silhouette": 0.6473940014839172,
+    "min_cluster_silhouette": 0.3677966892719269,
+    "negative_ratio": 0.03208556149732621,
+    "de_genes": [
+        {
+            "gene": "CALM1",
+            "p_value": 1.5034588727531596e-18,
+            "gene_index": 2905
+        },
+        {
+            "gene": "CCDC148",
+            "p_value": 1.6384819422844514e-18,
+            "gene_index": 3109
+        },
+        {
+            "gene": "ASTN1",
+            "p_value": 1.999703754172963e-18,
+            "gene_index": 1136
+        },
+        {
+            "gene": "C4orf50",
+            "p_value": 4.559950172755241e-18,
+            "gene_index": 2540
+        },
+        {
+            "gene": "CACNA1B",
+            "p_value": 1.2178614900203954e-17,
+            "gene_index": 2859
+        },
+        {
+            "gene": "B3GALTL",
+            "p_value": 2.2053081808194496e-17,
+            "gene_index": 1330
+        },
+        {
+            "gene": "CALM2",
+            "p_value": 8.799523533537467e-17,
+            "gene_index": 2906
+        },
+        {
+            "gene": "CHM",
+            "p_value": 2.0531653801481633e-16,
+            "gene_index": 3704
+        },
+        {
+            "gene": "C9orf80",
+            "p_value": 2.222319580250521e-16,
+            "gene_index": 2817
+        },
+        {
+            "gene": "C9orf4",
+            "p_value": 3.9047123019547735e-16,
+            "gene_index": 2796
+        }
+    ],
+    "cluster_sizes": [
+        82,
+        52,
+        24,
+        29
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "cancer_type": "READ",
+    "n_patients": 170,
+    "os_log_rank_p": 0.026363524445582633,
+    "os_median_by_risk": {
+        "0": Infinity,
+        "1": 1741.0,
+        "2": 1185.0
+    },
+    "pfi_log_rank_p": 7.833652497616066e-06,
+    "pfi_median_by_risk": {
+        "0": 3316.0,
+        "1": 1042.0,
+        "2": 610.0
+    }
+}

@@ -1,0 +1,77 @@
+{
+    "cancer_type": "BRCA",
+    "n_samples": 1215,
+    "optimal_k": 7,
+    "expected_range": [
+        4,
+        8
+    ],
+    "silhouette": 0.4636550843715668,
+    "davies_bouldin": 0.7270144717519317,
+    "calinski_harabasz": 7387.776479743323,
+    "balance_ratio": 0.26047904191616766,
+    "overall_silhouette": 0.4636550843715668,
+    "min_cluster_silhouette": 0.24223783612251282,
+    "negative_ratio": 0.07242798353909465,
+    "de_genes": [
+        {
+            "gene": "653553",
+            "p_value": 0.0,
+            "gene_index": 22
+        },
+        {
+            "gene": "8225",
+            "p_value": 0.0,
+            "gene_index": 27
+        },
+        {
+            "gene": "90288",
+            "p_value": 0.0,
+            "gene_index": 28
+        },
+        {
+            "gene": "A1BG",
+            "p_value": 0.0,
+            "gene_index": 29
+        },
+        {
+            "gene": "A2ML1",
+            "p_value": 0.0,
+            "gene_index": 34
+        },
+        {
+            "gene": "AAAS",
+            "p_value": 0.0,
+            "gene_index": 38
+        },
+        {
+            "gene": "AADAT",
+            "p_value": 0.0,
+            "gene_index": 45
+        },
+        {
+            "gene": "AAGAB",
+            "p_value": 0.0,
+            "gene_index": 46
+        },
+        {
+            "gene": "AAMP",
+            "p_value": 0.0,
+            "gene_index": 48
+        },
+        {
+            "gene": "ABAT",
+            "p_value": 0.0,
+            "gene_index": 58
+        }
+    ],
+    "cluster_sizes": [
+        100,
+        87,
+        223,
+        108,
+        184,
+        179,
+        334
+    ]
+}

@@ -1,0 +1,73 @@
+{
+    "cancer_type": "PAAD",
+    "n_samples": 183,
+    "optimal_k": 3,
+    "expected_range": [
+        3,
+        8
+    ],
+    "silhouette": 0.7252494096755981,
+    "davies_bouldin": 0.5252666447297477,
+    "calinski_harabasz": 16429.820752749296,
+    "balance_ratio": 0.4631578947368421,
+    "overall_silhouette": 0.7252494096755981,
+    "min_cluster_silhouette": 0.47251683473587036,
+    "negative_ratio": 0.01639344262295082,
+    "de_genes": [
+        {
+            "gene": "C21orf62",
+            "p_value": 5.313963452379699e-22,
+            "gene_index": 2347
+        },
+        {
+            "gene": "APOBEC2",
+            "p_value": 1.629197344779523e-21,
+            "gene_index": 847
+        },
+        {
+            "gene": "CEL",
+            "p_value": 1.1125530641977235e-18,
+            "gene_index": 3556
+        },
+        {
+            "gene": "C6",
+            "p_value": 7.994866585843115e-16,
+            "gene_index": 2584
+        },
+        {
+            "gene": "ABCC8",
+            "p_value": 3.408851908972936e-15,
+            "gene_index": 94
+        },
+        {
+            "gene": "ACADL",
+            "p_value": 4.739888630244174e-14,
+            "gene_index": 148
+        },
+        {
+            "gene": "C8orf12",
+            "p_value": 5.093071689214745e-13,
+            "gene_index": 2713
+        },
+        {
+            "gene": "ACTL6B",
+            "p_value": 3.182049892677674e-12,
+            "gene_index": 235
+        },
+        {
+            "gene": "C6orf217",
+            "p_value": 4.398215298906383e-12,
+            "gene_index": 2636
+        },
+        {
+            "gene": "ABAT",
+            "p_value": 1.9904302164808207e-11,
+            "gene_index": 58
+        }
+    ],
+    "cluster_sizes": [
+        95,
+        44,
+        44
+    ]
+}

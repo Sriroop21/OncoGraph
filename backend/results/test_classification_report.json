@@ -1,0 +1,213 @@
+{
+    "ACC": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 12.0
+    },
+    "BLCA": {
+        "precision": 0.9841269841269841,
+        "recall": 0.96875,
+        "f1-score": 0.9763779527559056,
+        "support": 64.0
+    },
+    "BRCA": {
+        "precision": 1.0,
+        "recall": 0.989010989010989,
+        "f1-score": 0.994475138121547,
+        "support": 182.0
+    },
+    "CESC": {
+        "precision": 0.9183673469387755,
+        "recall": 0.9574468085106383,
+        "f1-score": 0.9375,
+        "support": 47.0
+    },
+    "CHOL": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 6.0
+    },
+    "COAD": {
+        "precision": 0.7373737373737373,
+        "recall": 0.9864864864864865,
+        "f1-score": 0.8439306358381503,
+        "support": 74.0
+    },
+    "DLBC": {
+        "precision": 0.7,
+        "recall": 1.0,
+        "f1-score": 0.8235294117647058,
+        "support": 7.0
+    },
+    "ESCA": {
+        "precision": 0.9655172413793104,
+        "recall": 0.9655172413793104,
+        "f1-score": 0.9655172413793104,
+        "support": 29.0
+    },
+    "GBM": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 25.0
+    },
+    "HNSC": {
+        "precision": 1.0,
+        "recall": 0.9882352941176471,
+        "f1-score": 0.9940828402366864,
+        "support": 85.0
+    },
+    "KICH": {
+        "precision": 0.8125,
+        "recall": 1.0,
+        "f1-score": 0.896551724137931,
+        "support": 13.0
+    },
+    "KIRC": {
+        "precision": 1.0,
+        "recall": 0.967032967032967,
+        "f1-score": 0.9832402234636871,
+        "support": 91.0
+    },
+    "KIRP": {
+        "precision": 0.9795918367346939,
+        "recall": 0.9795918367346939,
+        "f1-score": 0.9795918367346939,
+        "support": 49.0
+    },
+    "LAML": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 26.0
+    },
+    "LGG": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 80.0
+    },
+    "LIHC": {
+        "precision": 0.9264705882352942,
+        "recall": 0.984375,
+        "f1-score": 0.9545454545454546,
+        "support": 64.0
+    },
+    "LUAD": {
+        "precision": 0.9318181818181818,
+        "recall": 0.9425287356321839,
+        "f1-score": 0.9371428571428572,
+        "support": 87.0
+    },
+    "LUSC": {
+        "precision": 0.9390243902439024,
+        "recall": 0.927710843373494,
+        "f1-score": 0.9333333333333333,
+        "support": 83.0
+    },
+    "MESO": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 13.0
+    },
+    "OV": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 46.0
+    },
+    "PAAD": {
+        "precision": 0.9642857142857143,
+        "recall": 1.0,
+        "f1-score": 0.9818181818181818,
+        "support": 27.0
+    },
+    "PCPG": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 28.0
+    },
+    "PRAD": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 83.0
+    },
+    "READ": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 25.0
+    },
+    "SARC": {
+        "precision": 0.9523809523809523,
+        "recall": 1.0,
+        "f1-score": 0.975609756097561,
+        "support": 40.0
+    },
+    "SKCM": {
+        "precision": 1.0,
+        "recall": 0.9859154929577465,
+        "f1-score": 0.9929078014184397,
+        "support": 71.0
+    },
+    "STAD": {
+        "precision": 0.9850746268656716,
+        "recall": 0.9705882352941176,
+        "f1-score": 0.9777777777777777,
+        "support": 68.0
+    },
+    "TGCT": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 21.0
+    },
+    "THCA": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 86.0
+    },
+    "THYM": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 18.0
+    },
+    "UCEC": {
+        "precision": 0.9759036144578314,
+        "recall": 0.9759036144578314,
+        "f1-score": 0.9759036144578314,
+        "support": 83.0
+    },
+    "UCS": {
+        "precision": 1.0,
+        "recall": 0.875,
+        "f1-score": 0.9333333333333333,
+        "support": 8.0
+    },
+    "UVM": {
+        "precision": 0.9230769230769231,
+        "recall": 1.0,
+        "f1-score": 0.96,
+        "support": 12.0
+    },
+    "accuracy": 0.9624924379915305,
+    "macro avg": {
+        "precision": 0.8998640041793325,
+        "recall": 0.9231543498481244,
+        "f1-score": 0.9096111852835572,
+        "support": 1653.0
+    },
+    "weighted avg": {
+        "precision": 0.9489835588603338,
+        "recall": 0.9624924379915305,
+        "f1-score": 0.9546172451035964,
+        "support": 1653.0
+    }
+}

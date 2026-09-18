@@ -1,0 +1,76 @@
+{
+    "cancer_type": "SKCM",
+    "n_samples": 473,
+    "optimal_k": 6,
+    "expected_range": [
+        3,
+        8
+    ],
+    "silhouette": 0.4534043073654175,
+    "davies_bouldin": 0.8084005877095585,
+    "calinski_harabasz": 3411.328551971679,
+    "balance_ratio": 0.3221476510067114,
+    "overall_silhouette": 0.4534043073654175,
+    "min_cluster_silhouette": 0.22802923619747162,
+    "negative_ratio": 0.07188160676532769,
+    "de_genes": [
+        {
+            "gene": "C1orf85",
+            "p_value": 1.2963669681273634e-34,
+            "gene_index": 2238
+        },
+        {
+            "gene": "B3GNT5",
+            "p_value": 2.886809589602495e-31,
+            "gene_index": 1338
+        },
+        {
+            "gene": "BZW1",
+            "p_value": 4.472914461517295e-31,
+            "gene_index": 1675
+        },
+        {
+            "gene": "C6orf204",
+            "p_value": 6.518945133925784e-31,
+            "gene_index": 2633
+        },
+        {
+            "gene": "CABLES1",
+            "p_value": 7.860608776773531e-31,
+            "gene_index": 2849
+        },
+        {
+            "gene": "CASC4",
+            "p_value": 4.631847974556381e-30,
+            "gene_index": 2986
+        },
+        {
+            "gene": "CEP135",
+            "p_value": 9.77393798595724e-30,
+            "gene_index": 3595
+        },
+        {
+            "gene": "C10orf118",
+            "p_value": 1.8485301301144048e-29,
+            "gene_index": 1687
+        },
+        {
+            "gene": "CA14",
+            "p_value": 1.858475752717842e-29,
+            "gene_index": 2833
+        },
+        {
+            "gene": "C6orf182",
+            "p_value": 7.152467469951169e-29,
+            "gene_index": 2626
+        }
+    ],
+    "cluster_sizes": [
+        48,
+        149,
+        61,
+        91,
+        62,
+        62
+    ]
+}

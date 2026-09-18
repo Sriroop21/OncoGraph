@@ -1,0 +1,16 @@
+{
+    "cancer_type": "KIRC",
+    "n_patients": 606,
+    "os_log_rank_p": 1.5888183865693038e-33,
+    "os_median_by_risk": {
+        "0": Infinity,
+        "1": 2564.0,
+        "2": 722.0
+    },
+    "pfi_log_rank_p": 5.971087389776308e-70,
+    "pfi_median_by_risk": {
+        "0": Infinity,
+        "1": 2003.0,
+        "2": 307.0
+    }
+}

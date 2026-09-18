@@ -1,0 +1,73 @@
+{
+    "cancer_type": "ACC",
+    "n_samples": 79,
+    "optimal_k": 3,
+    "expected_range": [
+        3,
+        8
+    ],
+    "silhouette": 0.6305220723152161,
+    "davies_bouldin": 0.5293797928557766,
+    "calinski_harabasz": 5215.45856075007,
+    "balance_ratio": 0.4411764705882353,
+    "overall_silhouette": 0.6305220723152161,
+    "min_cluster_silhouette": 0.3562127947807312,
+    "negative_ratio": 0.05063291139240506,
+    "de_genes": [
+        {
+            "gene": "AMH",
+            "p_value": 2.0327750149817803e-08,
+            "gene_index": 619
+        },
+        {
+            "gene": "ARMC9",
+            "p_value": 4.918229734585111e-08,
+            "gene_index": 1027
+        },
+        {
+            "gene": "C1orf230",
+            "p_value": 1.2904067148156173e-07,
+            "gene_index": 2207
+        },
+        {
+            "gene": "BACE1",
+            "p_value": 2.628787001413002e-07,
+            "gene_index": 1359
+        },
+        {
+            "gene": "CDH11",
+            "p_value": 3.4053502417918935e-07,
+            "gene_index": 3435
+        },
+        {
+            "gene": "C4orf50",
+            "p_value": 5.649034733323788e-07,
+            "gene_index": 2540
+        },
+        {
+            "gene": "ACTL7B",
+            "p_value": 1.0832123962245532e-06,
+            "gene_index": 237
+        },
+        {
+            "gene": "ABI3BP",
+            "p_value": 2.3866186893428676e-06,
+            "gene_index": 127
+        },
+        {
+            "gene": "ATP6V1B2",
+            "p_value": 3.4536483326519374e-06,
+            "gene_index": 1252
+        },
+        {
+            "gene": "653553",
+            "p_value": 3.616245976445498e-06,
+            "gene_index": 22
+        }
+    ],
+    "cluster_sizes": [
+        30,
+        15,
+        34
+    ]
+}

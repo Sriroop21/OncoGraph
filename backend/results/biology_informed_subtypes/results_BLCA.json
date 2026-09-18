@@ -1,0 +1,76 @@
+{
+    "cancer_type": "BLCA",
+    "n_samples": 427,
+    "optimal_k": 6,
+    "expected_range": [
+        3,
+        8
+    ],
+    "silhouette": 0.4444325566291809,
+    "davies_bouldin": 0.7981538714958015,
+    "calinski_harabasz": 41049.259464583774,
+    "balance_ratio": 0.4479166666666667,
+    "overall_silhouette": 0.4444325566291809,
+    "min_cluster_silhouette": 0.23988819122314453,
+    "negative_ratio": 0.06088992974238876,
+    "de_genes": [
+        {
+            "gene": "ACER2",
+            "p_value": 0.0,
+            "gene_index": 175
+        },
+        {
+            "gene": "BCAT2",
+            "p_value": 0.0,
+            "gene_index": 1432
+        },
+        {
+            "gene": "C17orf28",
+            "p_value": 0.0,
+            "gene_index": 2006
+        },
+        {
+            "gene": "ARHGEF10L",
+            "p_value": 1.401298464324817e-45,
+            "gene_index": 959
+        },
+        {
+            "gene": "CAPN5",
+            "p_value": 2.802596928649634e-45,
+            "gene_index": 2951
+        },
+        {
+            "gene": "CORO1C",
+            "p_value": 7.006492321624085e-45,
+            "gene_index": 4120
+        },
+        {
+            "gene": "CYB5A",
+            "p_value": 1.401298464324817e-44,
+            "gene_index": 4522
+        },
+        {
+            "gene": "BCAS1",
+            "p_value": 4.624284932271896e-44,
+            "gene_index": 1427
+        },
+        {
+            "gene": "AGAP11",
+            "p_value": 9.388699710976274e-44,
+            "gene_index": 409
+        },
+        {
+            "gene": "CYP2J2",
+            "p_value": 1.4573504028978098e-43,
+            "gene_index": 4578
+        }
+    ],
+    "cluster_sizes": [
+        75,
+        50,
+        88,
+        75,
+        43,
+        96
+    ]
+}

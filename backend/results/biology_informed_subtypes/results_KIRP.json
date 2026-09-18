@@ -1,0 +1,78 @@
+{
+    "cancer_type": "KIRP",
+    "n_samples": 323,
+    "optimal_k": 8,
+    "expected_range": [
+        3,
+        8
+    ],
+    "silhouette": 0.43863415718078613,
+    "davies_bouldin": 0.7495129898565027,
+    "calinski_harabasz": 27849.786621102005,
+    "balance_ratio": 0.5636363636363636,
+    "overall_silhouette": 0.43863415718078613,
+    "min_cluster_silhouette": 0.35425272583961487,
+    "negative_ratio": 0.05572755417956656,
+    "de_genes": [
+        {
+            "gene": "C1orf186",
+            "p_value": 1.7616605781670714e-34,
+            "gene_index": 2185
+        },
+        {
+            "gene": "ABHD11",
+            "p_value": 1.9446372941320995e-34,
+            "gene_index": 110
+        },
+        {
+            "gene": "AGBL2",
+            "p_value": 1.5185078635592527e-32,
+            "gene_index": 419
+        },
+        {
+            "gene": "ADAMTS13",
+            "p_value": 7.752680292755043e-32,
+            "gene_index": 297
+        },
+        {
+            "gene": "C7orf63",
+            "p_value": 1.3058755997875274e-31,
+            "gene_index": 2701
+        },
+        {
+            "gene": "ADCY4",
+            "p_value": 5.701171299454207e-30,
+            "gene_index": 336
+        },
+        {
+            "gene": "C6orf174",
+            "p_value": 3.0076751412681675e-29,
+            "gene_index": 2624
+        },
+        {
+            "gene": "C6orf223",
+            "p_value": 3.6361409438611284e-26,
+            "gene_index": 2640
+        },
+        {
+            "gene": "AFAP1L2",
+            "p_value": 1.8586046104311486e-25,
+            "gene_index": 395
+        },
+        {
+            "gene": "ADIPOR1",
+            "p_value": 3.7767598375593656e-25,
+            "gene_index": 358
+        }
+    ],
+    "cluster_sizes": [
+        55,
+        54,
+        34,
+        36,
+        31,
+        37,
+        31,
+        45
+    ]
+}

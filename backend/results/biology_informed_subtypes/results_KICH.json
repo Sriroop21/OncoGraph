@@ -1,0 +1,73 @@
+{
+    "cancer_type": "KICH",
+    "n_samples": 91,
+    "optimal_k": 3,
+    "expected_range": [
+        3,
+        8
+    ],
+    "silhouette": 0.619469940662384,
+    "davies_bouldin": 0.6840842889144391,
+    "calinski_harabasz": 9679.139869347828,
+    "balance_ratio": 0.5526315789473685,
+    "overall_silhouette": 0.619469940662384,
+    "min_cluster_silhouette": 0.35276681184768677,
+    "negative_ratio": 0.02197802197802198,
+    "de_genes": [
+        {
+            "gene": "CCDC85C",
+            "p_value": 3.0431776212478875e-14,
+            "gene_index": 3192
+        },
+        {
+            "gene": "C5orf36",
+            "p_value": 5.991289007880457e-14,
+            "gene_index": 2561
+        },
+        {
+            "gene": "C7orf26",
+            "p_value": 6.672416661074668e-14,
+            "gene_index": 2670
+        },
+        {
+            "gene": "C8G",
+            "p_value": 1.03820950317704e-13,
+            "gene_index": 2712
+        },
+        {
+            "gene": "CEBPZ",
+            "p_value": 1.3361521904089319e-13,
+            "gene_index": 3549
+        },
+        {
+            "gene": "ADCK2",
+            "p_value": 1.6757984431549355e-13,
+            "gene_index": 329
+        },
+        {
+            "gene": "ABI2",
+            "p_value": 1.9538071247687805e-13,
+            "gene_index": 125
+        },
+        {
+            "gene": "ADCK1",
+            "p_value": 2.349923098991791e-13,
+            "gene_index": 328
+        },
+        {
+            "gene": "CCNG2",
+            "p_value": 2.409645020410439e-13,
+            "gene_index": 3259
+        },
+        {
+            "gene": "ADIPOR2",
+            "p_value": 2.567525727616149e-13,
+            "gene_index": 359
+        }
+    ],
+    "cluster_sizes": [
+        38,
+        21,
+        32
+    ]
+}

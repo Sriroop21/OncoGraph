@@ -1,0 +1,76 @@
+{
+    "cancer_type": "COAD",
+    "n_samples": 492,
+    "optimal_k": 6,
+    "expected_range": [
+        4,
+        6
+    ],
+    "silhouette": 0.4509918689727783,
+    "davies_bouldin": 0.7264197633686639,
+    "calinski_harabasz": 22034.267725222006,
+    "balance_ratio": 0.20348837209302326,
+    "overall_silhouette": 0.4509918689727783,
+    "min_cluster_silhouette": 0.32689130306243896,
+    "negative_ratio": 0.07723577235772358,
+    "de_genes": [
+        {
+            "gene": "AADACL2",
+            "p_value": 0.0,
+            "gene_index": 42
+        },
+        {
+            "gene": "ASXL1",
+            "p_value": 7.20267410662956e-41,
+            "gene_index": 1138
+        },
+        {
+            "gene": "ABHD3",
+            "p_value": 2.1252726641225795e-34,
+            "gene_index": 119
+        },
+        {
+            "gene": "ADNP",
+            "p_value": 3.488100957860607e-33,
+            "gene_index": 364
+        },
+        {
+            "gene": "CAV3",
+            "p_value": 1.817678081872836e-32,
+            "gene_index": 3021
+        },
+        {
+            "gene": "C10orf99",
+            "p_value": 3.3904339811649803e-32,
+            "gene_index": 1735
+        },
+        {
+            "gene": "ATP9B",
+            "p_value": 5.210168531629862e-31,
+            "gene_index": 1273
+        },
+        {
+            "gene": "ATP8B1",
+            "p_value": 6.234510295659575e-31,
+            "gene_index": 1267
+        },
+        {
+            "gene": "AFG3L2",
+            "p_value": 1.465709235870812e-30,
+            "gene_index": 402
+        },
+        {
+            "gene": "ACADS",
+            "p_value": 2.0717568834937494e-30,
+            "gene_index": 150
+        }
+    ],
+    "cluster_sizes": [
+        62,
+        172,
+        35,
+        54,
+        74,
+        95
+    ]
+}

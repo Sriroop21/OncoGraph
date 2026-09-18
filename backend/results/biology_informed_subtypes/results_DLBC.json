@@ -1,0 +1,72 @@
+{
+    "cancer_type": "DLBC",
+    "n_samples": 48,
+    "optimal_k": 2,
+    "expected_range": [
+        3,
+        8
+    ],
+    "silhouette": 0.789635956287384,
+    "davies_bouldin": 0.27720526644045423,
+    "calinski_harabasz": 371.0158231463388,
+    "balance_ratio": 0.5483870967741935,
+    "overall_silhouette": 0.789635956287384,
+    "min_cluster_silhouette": 0.7527727484703064,
+    "negative_ratio": 0.0,
+    "de_genes": [
+        {
+            "gene": "AGPAT6",
+            "p_value": 1.5335657735704444e-05,
+            "gene_index": 435
+        },
+        {
+            "gene": "CEACAM19",
+            "p_value": 6.05718742008321e-05,
+            "gene_index": 3534
+        },
+        {
+            "gene": "B4GALNT4",
+            "p_value": 0.00011224618356209248,
+            "gene_index": 1347
+        },
+        {
+            "gene": "ARHGAP6",
+            "p_value": 0.0002582851448096335,
+            "gene_index": 952
+        },
+        {
+            "gene": "BLNK",
+            "p_value": 0.0003312824701424688,
+            "gene_index": 1531
+        },
+        {
+            "gene": "C3orf51",
+            "p_value": 0.0004885260132141411,
+            "gene_index": 2484
+        },
+        {
+            "gene": "BAIAP2",
+            "p_value": 0.0008006814168766141,
+            "gene_index": 1376
+        },
+        {
+            "gene": "C8orf58",
+            "p_value": 0.0010100888321176171,
+            "gene_index": 2734
+        },
+        {
+            "gene": "ABCA17P",
+            "p_value": 0.0012649605050683022,
+            "gene_index": 64
+        },
+        {
+            "gene": "BOK",
+            "p_value": 0.0013142159441486,
+            "gene_index": 1570
+        }
+    ],
+    "cluster_sizes": [
+        17,
+        31
+    ]
+}

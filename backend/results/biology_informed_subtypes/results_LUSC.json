@@ -1,0 +1,75 @@
+{
+    "cancer_type": "LUSC",
+    "n_samples": 552,
+    "optimal_k": 5,
+    "expected_range": [
+        3,
+        5
+    ],
+    "silhouette": 0.42259958386421204,
+    "davies_bouldin": 0.7506285386604868,
+    "calinski_harabasz": 28515.68779412161,
+    "balance_ratio": 0.1875,
+    "overall_silhouette": 0.42259958386421204,
+    "min_cluster_silhouette": 0.27826011180877686,
+    "negative_ratio": 0.07246376811594203,
+    "de_genes": [
+        {
+            "gene": "C3orf21",
+            "p_value": 5.605193857299268e-45,
+            "gene_index": 2461
+        },
+        {
+            "gene": "ABCC5",
+            "p_value": 1.0930128021733573e-43,
+            "gene_index": 90
+        },
+        {
+            "gene": "CYP2S1",
+            "p_value": 8.519894663094888e-42,
+            "gene_index": 4580
+        },
+        {
+            "gene": "ALDH3B1",
+            "p_value": 1.099598904955684e-41,
+            "gene_index": 544
+        },
+        {
+            "gene": "ABCF3",
+            "p_value": 8.129675079734356e-40,
+            "gene_index": 103
+        },
+        {
+            "gene": "DCDC2",
+            "p_value": 8.13931601316891e-40,
+            "gene_index": 4697
+        },
+        {
+            "gene": "DDR1",
+            "p_value": 2.294798595043e-39,
+            "gene_index": 4748
+        },
+        {
+            "gene": "ALG1L",
+            "p_value": 7.233114513170088e-39,
+            "gene_index": 562
+        },
+        {
+            "gene": "CLCA2",
+            "p_value": 1.0737188841374546e-38,
+            "gene_index": 3815
+        },
+        {
+            "gene": "CSF2RA",
+            "p_value": 1.9111426936893655e-38,
+            "gene_index": 4305
+        }
+    ],
+    "cluster_sizes": [
+        87,
+        208,
+        105,
+        39,
+        113
+    ]
+}

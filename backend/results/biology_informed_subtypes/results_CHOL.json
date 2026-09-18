@@ -1,0 +1,72 @@
+{
+    "cancer_type": "CHOL",
+    "n_samples": 45,
+    "optimal_k": 2,
+    "expected_range": [
+        3,
+        8
+    ],
+    "silhouette": 0.6612419486045837,
+    "davies_bouldin": 0.38546242041754764,
+    "calinski_harabasz": 133.02046186184978,
+    "balance_ratio": 0.40625,
+    "overall_silhouette": 0.6612419486045837,
+    "min_cluster_silhouette": 0.5938370227813721,
+    "negative_ratio": 0.044444444444444446,
+    "de_genes": [
+        {
+            "gene": "C6",
+            "p_value": 2.8430767429199477e-07,
+            "gene_index": 2584
+        },
+        {
+            "gene": "ACBD6",
+            "p_value": 5.466247330332408e-07,
+            "gene_index": 162
+        },
+        {
+            "gene": "ACADL",
+            "p_value": 1.0415155884402338e-06,
+            "gene_index": 148
+        },
+        {
+            "gene": "CDH23",
+            "p_value": 1.0423663070469047e-06,
+            "gene_index": 3447
+        },
+        {
+            "gene": "C4A",
+            "p_value": 1.1832436257463996e-06,
+            "gene_index": 2505
+        },
+        {
+            "gene": "C4BPA",
+            "p_value": 1.1841999594253139e-06,
+            "gene_index": 2506
+        },
+        {
+            "gene": "ADH7",
+            "p_value": 1.193109596897557e-06,
+            "gene_index": 353
+        },
+        {
+            "gene": "C4orf14",
+            "p_value": 1.6163198779395316e-06,
+            "gene_index": 2511
+        },
+        {
+            "gene": "AUTS2",
+            "p_value": 1.7230993307748577e-06,
+            "gene_index": 1303
+        },
+        {
+            "gene": "ALDOB",
+            "p_value": 1.7271581782551948e-06,
+            "gene_index": 553
+        }
+    ],
+    "cluster_sizes": [
+        13,
+        32
+    ]
+}

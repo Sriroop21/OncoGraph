@@ -1,0 +1,72 @@
+{
+    "cancer_type": "UCS",
+    "n_samples": 57,
+    "optimal_k": 2,
+    "expected_range": [
+        3,
+        8
+    ],
+    "silhouette": 0.7001805901527405,
+    "davies_bouldin": 0.38851372179359644,
+    "calinski_harabasz": 264.56565703174255,
+    "balance_ratio": 0.7272727272727273,
+    "overall_silhouette": 0.7001805901527405,
+    "min_cluster_silhouette": 0.6676143407821655,
+    "negative_ratio": 0.0,
+    "de_genes": [
+        {
+            "gene": "CDON",
+            "p_value": 3.547781659563043e-07,
+            "gene_index": 3510
+        },
+        {
+            "gene": "ACTN2",
+            "p_value": 1.3456960914481897e-06,
+            "gene_index": 241
+        },
+        {
+            "gene": "AKAP4",
+            "p_value": 1.2162557140982244e-05,
+            "gene_index": 497
+        },
+        {
+            "gene": "C10orf71",
+            "p_value": 1.682596302998718e-05,
+            "gene_index": 1720
+        },
+        {
+            "gene": "AKNAD1",
+            "p_value": 3.5300941817695275e-05,
+            "gene_index": 508
+        },
+        {
+            "gene": "ABCC11",
+            "p_value": 3.632966763689183e-05,
+            "gene_index": 83
+        },
+        {
+            "gene": "C6orf115",
+            "p_value": 4.179770257906057e-05,
+            "gene_index": 2591
+        },
+        {
+            "gene": "AMIGO1",
+            "p_value": 4.796756184077822e-05,
+            "gene_index": 622
+        },
+        {
+            "gene": "C6orf120",
+            "p_value": 5.141803922015242e-05,
+            "gene_index": 2593
+        },
+        {
+            "gene": "BSG",
+            "p_value": 5.493440403370187e-05,
+            "gene_index": 1621
+        }
+    ],
+    "cluster_sizes": [
+        24,
+        33
+    ]
+}

@@ -1,0 +1,74 @@
+{
+    "cancer_type": "PRAD",
+    "n_samples": 550,
+    "optimal_k": 4,
+    "expected_range": [
+        3,
+        6
+    ],
+    "silhouette": 0.3891335129737854,
+    "davies_bouldin": 0.9507044652388734,
+    "calinski_harabasz": 9761.477375159313,
+    "balance_ratio": 0.3699421965317919,
+    "overall_silhouette": 0.3891335129737854,
+    "min_cluster_silhouette": 0.3553466498851776,
+    "negative_ratio": 0.06,
+    "de_genes": [
+        {
+            "gene": "ADA",
+            "p_value": 2.191630798204014e-42,
+            "gene_index": 266
+        },
+        {
+            "gene": "ANP32E",
+            "p_value": 9.694182776199084e-42,
+            "gene_index": 760
+        },
+        {
+            "gene": "ALDH3B1",
+            "p_value": 8.55730933209236e-41,
+            "gene_index": 544
+        },
+        {
+            "gene": "CERK",
+            "p_value": 1.760465273715911e-39,
+            "gene_index": 3616
+        },
+        {
+            "gene": "CANT1",
+            "p_value": 2.929651259111501e-39,
+            "gene_index": 2938
+        },
+        {
+            "gene": "C9orf152",
+            "p_value": 2.5158414887273238e-37,
+            "gene_index": 2775
+        },
+        {
+            "gene": "C8orf73",
+            "p_value": 2.7062937790965194e-36,
+            "gene_index": 2737
+        },
+        {
+            "gene": "CCDC109B",
+            "p_value": 1.3863756266780317e-35,
+            "gene_index": 3071
+        },
+        {
+            "gene": "C10orf54",
+            "p_value": 6.780739291616294e-35,
+            "gene_index": 1713
+        },
+        {
+            "gene": "CORO1C",
+            "p_value": 9.879297630579467e-35,
+            "gene_index": 4120
+        }
+    ],
+    "cluster_sizes": [
+        64,
+        173,
+        145,
+        168
+    ]
+}

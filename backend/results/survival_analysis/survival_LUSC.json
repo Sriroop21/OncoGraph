@@ -1,0 +1,16 @@
+{
+    "cancer_type": "LUSC",
+    "n_patients": 552,
+    "os_log_rank_p": 0.0006759940848899721,
+    "os_median_by_risk": {
+        "0": 1736.0,
+        "1": 965.0,
+        "2": 716.0
+    },
+    "pfi_log_rank_p": 0.004257048775901812,
+    "pfi_median_by_risk": {
+        "0": 2305.0,
+        "1": 1278.0,
+        "2": Infinity
+    }
+}

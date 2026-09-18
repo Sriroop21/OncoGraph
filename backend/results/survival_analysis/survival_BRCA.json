@@ -1,0 +1,16 @@
+{
+    "cancer_type": "BRCA",
+    "n_patients": 1215,
+    "os_log_rank_p": 7.894874784306351e-19,
+    "os_median_by_risk": {
+        "0": 3736.0,
+        "1": 3461.0,
+        "2": 1034.0
+    },
+    "pfi_log_rank_p": 7.085110700840115e-26,
+    "pfi_median_by_risk": {
+        "0": 4456.0,
+        "1": Infinity,
+        "2": 792.0
+    }
+}

@@ -1,0 +1,73 @@
+{
+    "cancer_type": "UVM",
+    "n_samples": 80,
+    "optimal_k": 3,
+    "expected_range": [
+        3,
+        8
+    ],
+    "silhouette": 0.6834702491760254,
+    "davies_bouldin": 0.5765969491879025,
+    "calinski_harabasz": 7090.03755540403,
+    "balance_ratio": 0.4358974358974359,
+    "overall_silhouette": 0.6834702491760254,
+    "min_cluster_silhouette": 0.3735865652561188,
+    "negative_ratio": 0.0125,
+    "de_genes": [
+        {
+            "gene": "BAZ1A",
+            "p_value": 5.466572940843184e-12,
+            "gene_index": 1405
+        },
+        {
+            "gene": "C7orf64",
+            "p_value": 3.0456210470264367e-11,
+            "gene_index": 2702
+        },
+        {
+            "gene": "C5orf44",
+            "p_value": 4.444633550093613e-11,
+            "gene_index": 2569
+        },
+        {
+            "gene": "CCDC55",
+            "p_value": 5.320006934983468e-11,
+            "gene_index": 3156
+        },
+        {
+            "gene": "CD81",
+            "p_value": 7.126509105059853e-11,
+            "gene_index": 3376
+        },
+        {
+            "gene": "CDC14A",
+            "p_value": 7.79374897952323e-11,
+            "gene_index": 3393
+        },
+        {
+            "gene": "CCNT2",
+            "p_value": 9.863239391894041e-11,
+            "gene_index": 3270
+        },
+        {
+            "gene": "ACSL4",
+            "p_value": 9.992837113337316e-11,
+            "gene_index": 215
+        },
+        {
+            "gene": "C3orf63",
+            "p_value": 1.0941918204832035e-10,
+            "gene_index": 2492
+        },
+        {
+            "gene": "ACAP2",
+            "p_value": 1.512952679805224e-10,
+            "gene_index": 155
+        }
+    ],
+    "cluster_sizes": [
+        39,
+        17,
+        24
+    ]
+}

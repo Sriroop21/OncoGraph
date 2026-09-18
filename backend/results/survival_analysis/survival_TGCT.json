@@ -1,0 +1,14 @@
+{
+    "cancer_type": "TGCT",
+    "n_patients": 139,
+    "os_log_rank_p": 0.2193254060501366,
+    "os_median_by_risk": {
+        "0": Infinity,
+        "1": Infinity
+    },
+    "pfi_log_rank_p": 0.11647087831549893,
+    "pfi_median_by_risk": {
+        "0": 4323.0,
+        "1": Infinity
+    }
+}

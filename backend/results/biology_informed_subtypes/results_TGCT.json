@@ -1,0 +1,73 @@
+{
+    "cancer_type": "TGCT",
+    "n_samples": 139,
+    "optimal_k": 3,
+    "expected_range": [
+        3,
+        8
+    ],
+    "silhouette": 0.8669085502624512,
+    "davies_bouldin": 0.18851795231782478,
+    "calinski_harabasz": 6256.740614146414,
+    "balance_ratio": 0.5245901639344263,
+    "overall_silhouette": 0.8669085502624512,
+    "min_cluster_silhouette": 0.8121644258499146,
+    "negative_ratio": 0.0,
+    "de_genes": [
+        {
+            "gene": "BCAT1",
+            "p_value": 1.3493528892677825e-23,
+            "gene_index": 1431
+        },
+        {
+            "gene": "ACVR1B",
+            "p_value": 1.52403319941013e-22,
+            "gene_index": 257
+        },
+        {
+            "gene": "BMI1",
+            "p_value": 1.543516422938406e-22,
+            "gene_index": 1539
+        },
+        {
+            "gene": "CHST7",
+            "p_value": 2.004228735854009e-22,
+            "gene_index": 3763
+        },
+        {
+            "gene": "C1orf144",
+            "p_value": 3.0732811701415097e-22,
+            "gene_index": 2161
+        },
+        {
+            "gene": "C12orf40",
+            "p_value": 3.966454983017196e-22,
+            "gene_index": 1802
+        },
+        {
+            "gene": "ASB7",
+            "p_value": 5.922413256971859e-22,
+            "gene_index": 1098
+        },
+        {
+            "gene": "AGPAT3",
+            "p_value": 6.463439561756886e-22,
+            "gene_index": 432
+        },
+        {
+            "gene": "CAPN1",
+            "p_value": 9.300006167217895e-22,
+            "gene_index": 2948
+        },
+        {
+            "gene": "BTRC",
+            "p_value": 2.07176714429604e-21,
+            "gene_index": 1666
+        }
+    ],
+    "cluster_sizes": [
+        46,
+        32,
+        61
+    ]
+}

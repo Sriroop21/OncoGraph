@@ -1,0 +1,16 @@
+{
+    "cancer_type": "THCA",
+    "n_patients": 572,
+    "os_log_rank_p": 1.7085159625695057e-06,
+    "os_median_by_risk": {
+        "0": Infinity,
+        "1": Infinity,
+        "2": 1854.0
+    },
+    "pfi_log_rank_p": 5.1777340834037675e-06,
+    "pfi_median_by_risk": {
+        "0": Infinity,
+        "1": Infinity,
+        "2": 1708.0
+    }
+}
