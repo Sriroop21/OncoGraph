@@ -1,25 +1,25 @@
-# OncoGraph 🧬
+# OncoGraph
 
 **Pan-Cancer Subtype Classification and Patient Constellation via Graph Convolutional Networks (GCN)**
 
 OncoGraph is a computational framework that uses Graph Neural Networks (GNNs) to classify cancer types and visualize patient similarity networks, built on the TCGA Pan-Cancer Atlas dataset (11,069 patients, 33 cancer types, 20,531 genes per patient).
 
-Instead of treating each patient as an isolated data point (like traditional ML models such as SVM or Random Forest), OncoGraph builds a **Patient Constellation Graph** — a network where patients are connected to their 5 most molecularly similar neighbors (k-NN, cosine similarity). A GCN is then trained on this graph, allowing patients to "borrow" information from their genetic neighborhood — improving accuracy on rare cancer subtypes and enabling biologically interpretable predictions.
+Instead of treating each patient as an isolated data point, as in conventional machine learning approaches such as SVM or Random Forest, OncoGraph builds a **Patient Constellation Graph** — a network where patients are connected to their 5 most molecularly similar neighbors (k-NN using cosine similarity). A GCN is then trained on this graph, allowing information from a patient’s molecular neighborhood to contribute to the prediction process. This graph-based formulation is intended to support classification of rare cancer subtypes and biologically interpretable analysis.
 
 ---
 
-## ✨ Key Features
+## Key Features
 
 - **Pan-Cancer Classification** — Classifies patients into 1 of 33 cancer types from gene expression data alone.
 - **Patient Similarity Graph** — Constructs a k-NN graph (k=5) over patients using cosine similarity of gene expression vectors.
 - **Molecular Subtype Discovery** — Visualizes topological clustering to reveal intra-tumor heterogeneity.
 - **Biomarker Identification** — Maps important model features back to HUGO gene symbols (e.g., `TP53`) for interpretability.
 - **Prognostic Stratification** — Correlates patient clusters with clinical survival data (Overall Survival & PFI).
-- **Anomaly / Open-Set Detection** — Flags predictions below a confidence threshold as "Unknown/Investigational" instead of forcing a misdiagnosis.
+- **Anomaly / Open-Set Detection** — Flags predictions below a confidence threshold as "Unknown/Investigational" rather than forcing a low-confidence classification.
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 | | |
 |---|---|
@@ -30,11 +30,11 @@ Instead of treating each patient as an isolated data point (like traditional ML 
 | **Features** | 20,531 genes (Entrez IDs), batch-normalized, log₂ transformed RNA-Seq |
 | **Targets** | Cancer type, Overall Survival (OS), Progression-Free Interval (PFI) |
 
-> ⚠️ **Note:** The raw data files (e.g. the `.xena` gene expression matrix) are very large (over 1 GB) and are **not suitable for GitHub**. See [Handling Large Data Files](#-handling-large-data-files-important) below before pushing.
+> **Note:** The raw data files, including the `.xena` gene expression matrix, are large and are managed using Git LFS. See [Handling Large Data Files](#handling-large-data-files) for details.
 
 ---
 
-## 🗂 Project Structure
+## Project Structure
 
 ```
 OncoGraph/
@@ -62,19 +62,22 @@ OncoGraph/
 
 ---
 
-## ⚙️ Setup
+## Setup
 
 ```bash
-# 1. Clone the repository
-git clone https://github.com/<your-username>/OncoGraph.git
+# 1. Install Git LFS
+git lfs install
+
+# 2. Clone the repository
+git clone https://github.com/Sriroop21/OncoGraph.git
 cd OncoGraph
 
-# 2. Create and activate a virtual environment
+# 3. Create and activate a virtual environment
 python -m venv venv
 venv\Scripts\activate        # Windows
 # source venv/bin/activate   # macOS/Linux
 
-# 3. Install dependencies
+# 4. Install dependencies
 pip install -r requirements.txt
 ```
 
@@ -83,7 +86,7 @@ pip install -r requirements.txt
 > pip freeze > requirements.txt
 > ```
 
-## ▶️ Usage
+## Usage
 
 ```bash
 cd backend
@@ -106,7 +109,7 @@ python run_anomaly.py        # Open-set / unknown subtype detection
 
 ---
 
-## 🧠 Methodology (Summary)
+## Methodology
 
 1. **Preprocessing** — Missing values imputed with 0.0; gene expression matrix merged with clinical survival data.
 2. **Graph Construction** — Cosine similarity computed between all patients → converted to a k-NN adjacency matrix (k=5), forming the "Patient Constellation."
@@ -116,30 +119,34 @@ python run_anomaly.py        # Open-set / unknown subtype detection
 
 ---
 
-## 📁 Handling Large Data Files (Important)
+## Handling Large Data Files
 
-GitHub blocks files over 100 MB by default, and your dataset folder contains files over 1 GB (e.g. the `.xena` RNA-Seq matrix and the supplemental survival table). **Do not commit these directly.** Before uploading:
+The repository contains several large model and dataset files. These files are managed using **Git LFS (Large File Storage)** rather than standard Git object storage.
 
-1. Create a `.gitignore` file in the project root (see below) so `venv/`, large raw data files, and the `data/` folder are never staged.
-2. If collaborators need the raw data, share the download link instead (already documented above under Dataset), or use **Git LFS** ([git-lfs.com](https://git-lfs.com)) if you must version large files.
+The following file types are configured for Git LFS:
 
-**Suggested `.gitignore`:**
+- `*.pt` — model checkpoints and processed PyTorch data
+- `*.xena` — gene-expression data files
+
+Git LFS is required when cloning or working with the repository so that these large files can be retrieved correctly. If Git LFS is not installed, install it before cloning or run `git lfs install` after cloning.
+
+**Git LFS setup:**
+```bash
+git lfs install
 ```
+
+**Recommended `.gitignore`:**
+```text
 venv/
 __pycache__/
 *.pyc
-backend/data/
-*.xena
-*.xena*
-EB++AdjustPANCAN*
-Survival_SupplementalTable*
 .env
 .DS_Store
 ```
 
 ---
 
-## 👥 Team
+## Team
 
 | Registration No. | Name |
 |---|---|
@@ -149,7 +156,7 @@ Survival_SupplementalTable*
 
 ---
 
-## 📚 Key References
+## Key References
 
 - The Cancer Genome Atlas Research Network. (2018). *Cell*. [10.1016/j.cell.2018.03.022](https://doi.org/10.1016/j.cell.2018.03.022)
 - Ozdemir, C., Vashishath, Y., & Bozdag, S. (2025). IGCN: Integrative graph convolution networks for patient level insights and biomarker discovery. *Bioinformatics*. [10.1093/bioinformatics/btaf313](https://doi.org/10.1093/bioinformatics/btaf313)
@@ -158,6 +165,6 @@ Survival_SupplementalTable*
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the [MIT License](LICENSE).
